@@ -11,7 +11,7 @@ public class Main {
             exibirMenuPrincipal();
             System.out.print("Opção escolhida: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine(); 
 
             	switch (opcao) {
                 case 1 -> menuProdutos(scanner, produtoService);
@@ -66,7 +66,7 @@ public class Main {
             exibirMenuProdutos();
             System.out.print("Opção escolhida: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1 -> {
@@ -121,7 +121,7 @@ public class Main {
             exibirMenuPedidos();
             System.out.print("Opção escolhida: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1 -> {
